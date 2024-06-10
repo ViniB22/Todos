@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(to right, rgb(255, 240, 37), rgb(255, 166, 0), rgb(236, 58, 35));
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-family: Helvetica;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(17, 6, 6, 0.5);
+    width: fit-content;
+    padding: 15px;
+    margin-top: 60px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.54);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#res{
+    background: linear-gradient(to left, rgb(255, 240, 37), rgb(255, 166, 0), rgb(236, 58, 35));
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: auto;
+}
+button, input{
+    background-color: black;
+    min-width: 120px;
+    border-radius: 16px;
+    min-height: 60px;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+}
+button:hover, input:hover{
+    background: linear-gradient(to left, rgb(255, 240, 37), rgb(255, 166, 0), rgb(236, 58, 35));
+    color: #232323;
+}
+button:active{
+    background: linear-gradient(to left, rgb(255, 240, 37), rgb(255, 166, 0), rgb(236, 58, 35));
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.466);
+}
